@@ -1,0 +1,146 @@
+.
+├── pom.xml
+├── RA20060877_ILP1-2_BookStoreTreeStructure.png
+├── snapshot
+│   └── ToCaptureImagesInVM.odt
+├── src
+│   ├── integration-test
+│   │   └── java
+│   │       └── devops
+│   │           └── ilp1
+│   │               ├── IntegrationTest.java
+│   │               └── LoginFunctionalTest.java
+│   ├── main
+│   │   ├── java
+│   │   │   └── devops
+│   │   │       └── ilp1
+│   │   │           ├── controllerWithoutDb
+│   │   │           │   ├── UserLoginController.java
+│   │   │           │   ├── UserPasswordController.java
+│   │   │           │   └── UserRegisterController.java
+│   │   │           ├── db
+│   │   │           │   └── UserDb.java
+│   │   │           ├── model
+│   │   │           │   └── User.java
+│   │   │           └── service
+│   │   │               └── UserService.java
+│   │   └── webapp
+│   │       ├── fail.jsp
+│   │       ├── forgotpassword.jsp
+│   │       ├── index.jsp
+│   │       ├── register.jsp
+│   │       ├── success.jsp
+│   │       └── WEB-INF
+│   │           └── web.xml
+│   └── test
+│       └── java
+│           └── devops
+│               └── ilp1
+│                   ├── controllerWithoutDb
+│                   │   ├── ChangePasswordTest.java
+│                   │   ├── LoginTest.java
+│                   │   └── RegisterTest.java
+│                   └── service
+│                       └── UserServiceTest.java
+└── target
+    ├── apache-tomcat-maven-plugin
+    ├── classes
+    │   └── devops
+    │       └── ilp1
+    │           ├── controllerWithoutDb
+    │           │   ├── UserLoginController.class
+    │           │   ├── UserPasswordController.class
+    │           │   └── UserRegisterController.class
+    │           ├── db
+    │           │   └── UserDb.class
+    │           ├── model
+    │           │   └── User.class
+    │           └── service
+    │               └── UserService.class
+    ├── failsafe-reports
+    │   ├── devops.ilp1.LoginFunctionalTest.txt
+    │   ├── failsafe-summary.xml
+    │   └── TEST-devops.ilp1.LoginFunctionalTest.xml
+    ├── ILP_Bookstore
+    │   ├── fail.jsp
+    │   ├── forgotpassword.jsp
+    │   ├── index.jsp
+    │   ├── META-INF
+    │   ├── register.jsp
+    │   ├── success.jsp
+    │   └── WEB-INF
+    │       ├── classes
+    │       │   └── devops
+    │       │       └── ilp1
+    │       │           ├── controllerWithoutDb
+    │       │           │   ├── UserLoginController.class
+    │       │           │   ├── UserPasswordController.class
+    │       │           │   └── UserRegisterController.class
+    │       │           ├── db
+    │       │           │   └── UserDb.class
+    │       │           ├── model
+    │       │           │   └── User.class
+    │       │           └── service
+    │       │               └── UserService.class
+    │       ├── lib
+    │       │   └── jstl-1.2.jar
+    │       └── web.xml
+    ├── ILP_Bookstore.war
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── devops.ilp1.controllerWithoutDb.ChangePasswordTest.txt
+    │   ├── devops.ilp1.controllerWithoutDb.LoginTest.txt
+    │   ├── devops.ilp1.controllerWithoutDb.RegisterTest.txt
+    │   ├── devops.ilp1.service.UserServiceTest.txt
+    │   ├── TEST-devops.ilp1.controllerWithoutDb.ChangePasswordTest.xml
+    │   ├── TEST-devops.ilp1.controllerWithoutDb.LoginTest.xml
+    │   ├── TEST-devops.ilp1.controllerWithoutDb.RegisterTest.xml
+    │   └── TEST-devops.ilp1.service.UserServiceTest.xml
+    ├── test-classes
+    │   └── devops
+    │       └── ilp1
+    │           ├── controllerWithoutDb
+    │           │   ├── ChangePasswordTest.class
+    │           │   ├── LoginTest.class
+    │           │   └── RegisterTest.class
+    │           ├── IntegrationTest.class
+    │           ├── LoginFunctionalTest.class
+    │           └── service
+    │               └── UserServiceTest.class
+    └── tomcat
+        ├── conf
+        │   ├── logging.properties
+        │   ├── tomcat-users.xml
+        │   └── web.xml
+        ├── logs
+        │   └── access_log.2019-10-10
+        ├── webapps
+        └── work
+            └── Tomcat
+                └── localhost
+                    └── ILP_Bookstore
+                        ├── org
+                        │   └── apache
+                        │       └── jsp
+                        │           ├── forgotpassword_jsp.class
+                        │           ├── forgotpassword_jsp.java
+                        │           ├── index_jsp.class
+                        │           ├── index_jsp.java
+                        │           ├── register_jsp.class
+                        │           ├── register_jsp.java
+                        │           ├── success_jsp.class
+                        │           └── success_jsp.java
+                        └── SESSIONS.ser
+
+67 directories, 76 files
